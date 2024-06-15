@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header_banner {
+    background-color: #5F93C0;
+    width: 100%;
+    height: 810px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.banner_container {
+    position: absolute;
+    display: flex;
+    top: 20px;
+    background-color: white;
+    height: 80px;
+    width: 97.4%;
+    border-radius: 22px;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.web_title {
+    margin-left: 40px;
+    font-family: "Playwrite NZ", cursive;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.menu_item {
+    padding-left: 15px;
+    font-family: "Playwrite NZ", cursive;
+
+}
+
+.try_scheduling {
+    padding-right: 15px;
+    background-color: #283849;
+    border-radius: 12px;
+    color: white;
+}
