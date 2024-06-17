@@ -7,7 +7,8 @@
 .header_banner {
     background-color: #5F93C0;
     width: 100%;
-    height: 810px;
+    /* height: 810px; */
+    height: 100vh;
     position: relative;
     display: flex;
     justify-content: center;
@@ -39,14 +40,27 @@
 }
 
 .menu_item {
-    padding-left: 15px;
+    padding-left: 35px;
     font-family: "Playwrite NZ", cursive;
 
 }
 
+.menu_item a {
+    text-decoration: none;
+    color: black;
+}
+
 .try_scheduling {
-    padding-right: 15px;
+   
     background-color: #283849;
     border-radius: 12px;
+    padding-right: 30px;
+    
+    margin: -1px 15px;
+}
+
+.try_scheduling a {
+    text-decoration: none;
     color: white;
+    margin: auto;
 }
